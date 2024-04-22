@@ -1,7 +1,6 @@
 import os
 import random
 from art import logo, vs
-# import art
 from game_data import data
 
 
