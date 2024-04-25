@@ -23,6 +23,7 @@ MENU = {
         "cost": 3.0,
     }
 }
+
 profit = 0
 resources = {
     "water": 300,
@@ -31,42 +32,63 @@ resources = {
 }
 
 
-# TODO 1. Prompt user by asking "What would you like? (espresso/latte/cappuccino)"
+# Check resources sufficient
+def is_resource_sufficient(order_ingredients):
+    """Returns True when order can be made, False if insufficient ingredients"""
+    for item in order_ingredients:
+        if order_ingredients[item] >= resources[item]:
+            print(f"Sorry there isn't enough water {item}.")
+            return False
+    return True
+
+
+# 5. Process coins
+def process_coins():
+    """Returns the total calculated from coins inserted."""
+    print("Please insert coins.")
+    total = int(input("how many quarters?: ")) * 0.25
+    total += int(input("how many dimes?: ")) * 0.10
+    total += int(input("how many nickels?: ")) * 0.05
+    total += int(input("how many pennies?: ")) * 0.01
+    return total
+
+
+def is_transaction_successful(money_received, drink_cost):
+    """Return True when the payment is accepted, or False if money is insufficient."""
+    if money_received >= drink_cost:
+        change = round(money_received - drink_cost, 2)
+        print(f"Here is ${change} in change.")
+        global profit
+        profit += drink_cost
+        return True
+    else:
+        print("Sorry that's not enough money. Money refunded")
+        return False
+
+
+def make_coffee(drink_name, order_ingredients):
+    """Deduct the required ingredients from the resources."""
+    for item in order_ingredients:
+        resources[item] -= order_ingredients[item]
+    print(f"Here is your coffee ☕️")
+
+
+# Prompt user by asking "What would you like? (espresso/latte/cappuccino)"
 is_on = True
 
-choice = input("What would you like? (espresso/latte/cappuccino): ").lower()
-if choice != "off":
-    is_on = False
-elif choice == "report":
-    print(f"Water: {resources[water]}ml")
-    print(f"milk: {resources[milk]}ml")
-    print(f"Coffee: {resources[coffee]}g")
-    print(f"Money: ${money}")
-
-
-# TODO 2. Turn off the Coffee Machine by entering “off”to the prompt.
-
-
-
-# TODO 3. print report
-        # Water: 100ml
-        # Milk: 50ml
-        # Coffee: 76g
-        # Money: $2.5
-def report(water, milk, coffee, money):
-
-
-# TODO 4. check resources sufficient
-def resource_bank(water, milk, coffee, money):
-
-# TODO 5. process coins
-quarter = int(.25)
-dime = int(.10)
-nickle = int(.05)
-penny = int(.01)
-def bank(quarter, dime, nickle, penny):
-
-
-# TODO 6. check transaction successful
-# TODO 7. make coffee
-        #  if transaction successful and enough resources exist, make drink
+while True:
+    choice = input("What would you like? (espresso/latte/cappuccino): ").lower()
+    # Turn off the Coffee Machine by entering “off”
+    if choice == "off":
+        is_on = False
+    elif choice == "report":  # 3. print report
+        print(f"Water: {resources['water']}ml")
+        print(f"milk: {resources['milk']}ml")
+        print(f"Coffee: {resources['coffee']}g")
+        print(f"Money: ${profit}")
+    else:
+        drink = MENU[choice]  # 6. check transaction successful
+        if is_resource_sufficient(drink["ingredients"]):
+            payment = process_coins()
+            if is_transaction_successful(payment, drink["cost"]):
+                make_coffee(choice, drink["ingredients"])
