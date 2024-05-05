@@ -6,15 +6,19 @@
   <component name="ChangeListManager">
     <list default="true" id="ff51da86-3578-4e08-90c2-080f3726bbc4" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/16_OOP/Coffee+Machine+Classes+Documentation.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/16_OOP/coffee_maker.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/16_OOP/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/16_OOP/menu.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/16_OOP/money_machine.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/17_quiz_game/data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/17_quiz_game/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/17_quiz_game/question_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/17_quiz_game/quiz_brain.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/18_turtle_GUI/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/25_csv_data/2018_Central_Park_Squirrel_Census.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/25_csv_data/csv_data_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/25_csv_data/squirrel_count.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/25_csv_data/temperatures.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/25_csv_data/us-states-game/50_states.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/25_csv_data/us-states-game/blank_states_img.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/25_csv_data/us-states-game/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/25_csv_data/us-states-game/states_to_learn.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/25_csv_data/weather_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/26_list_comp_NATO/list_comp.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/17_quiz_game/quiz_brain.py" beforeDir="false" afterPath="$PROJECT_DIR$/17_quiz_game/quiz_brain.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,8 +84,8 @@
     "TODO_SCOPE": "All Places",
     "deletionFromPopupRequiresConfirmation": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/ea/Programming/Python/pyprojects/100_days_python_bootcamp/16_OOP",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+    "last_opened_file_path": "/Users/ea/Programming/Python/pyprojects/100_days_python_bootcamp/25_csv_data",
+    "settings.editor.selected.configurable": "vcs.Git"
   },
   "keyToStringList": {
     "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
@@ -92,7 +96,6 @@
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
       <console-settings is-module-sdk="true">
-        <option name="useSoftWraps" value="true" />
         <option name="myUseModuleSdk" value="true" />
       </console-settings>
     </option>
@@ -101,15 +104,81 @@
     <option name="myDropIntoDebuggerOnFailedTests" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/25_csv_data" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/09_dicts_+_nesting/nesting" />
       <recent name="$PROJECT_DIR$/09_dicts_+_nesting" />
       <recent name="$PROJECT_DIR$/bandname_gen" />
-      <recent name="$PROJECT_DIR$/hangman_words.py" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.main (1)">
+    <configuration name="csv_data_list" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="100_days_python_bootcamp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/25_csv_data" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/25_csv_data/csv_data_list.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="list_comp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="100_days_python_bootcamp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/26_list_comp_NATO" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/26_list_comp_NATO/list_comp.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="true" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="100_days_python_bootcamp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/25_csv_data/us-states-game" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/25_csv_data/us-states-game/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="100_days_python_bootcamp" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -118,49 +187,31 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/17_quiz_game" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/18_turtle_GUI" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/17_quiz_game/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/18_turtle_GUI/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="quiz_brain" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="100_days_python_bootcamp" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/17_quiz_game" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/17_quiz_game/quiz_brain.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="EMULATE_TERMINAL" value="true" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.quiz_brain" />
+      <item itemvalue="Python.main (1)" />
+      <item itemvalue="Python.csv_data_list" />
+      <item itemvalue="Python.list_comp" />
       <item itemvalue="Python.main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.main" />
-        <item itemvalue="Python.quiz_brain" />
-        <item itemvalue="Python.main" />
+        <item itemvalue="Python.csv_data_list" />
+        <item itemvalue="Python.list_comp" />
       </list>
     </recent_temporary>
   </component>
@@ -268,7 +319,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714016309626</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="adding OOP chapter: quiz game.">
+      <option name="closed" value="true" />
+      <created>1714177883174</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1714177883174</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -296,6 +355,18 @@
     <MESSAGE value="failing at coffee machine" />
     <MESSAGE value="coffee machine kicked my ass." />
     <MESSAGE value="figuring out how to use PrettyTable." />
-    <option name="LAST_COMMIT_MESSAGE" value="figuring out how to use PrettyTable." />
+    <MESSAGE value="adding OOP chapter: quiz game." />
+    <option name="LAST_COMMIT_MESSAGE" value="adding OOP chapter: quiz game." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/26_list_comp_NATO/list_comp.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

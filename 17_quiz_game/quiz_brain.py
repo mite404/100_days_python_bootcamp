@@ -1,11 +1,3 @@
-from data import question_data
-from random import choice
-# TODO - ask questions
-
-# TODO - check if answer is correct
-
-# TODO - check if at end of quiz
-
 # attributes:
     # question_number = 0
     # iterate through question_bank to create questions_list
