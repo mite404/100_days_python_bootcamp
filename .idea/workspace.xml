@@ -4,21 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff51da86-3578-4e08-90c2-080f3726bbc4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/16_OOP/Coffee+Machine+Classes+Documentation.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_turtle_GUI/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/25_csv_data/2018_Central_Park_Squirrel_Census.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/25_csv_data/csv_data_list.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/25_csv_data/squirrel_count.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/25_csv_data/temperatures.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/25_csv_data/us-states-game/50_states.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/25_csv_data/us-states-game/blank_states_img.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/25_csv_data/us-states-game/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/25_csv_data/us-states-game/states_to_learn.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/25_csv_data/weather_data.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/26_list_comp_NATO/list_comp.py" afterDir="false" />
+    <list default="true" id="ff51da86-3578-4e08-90c2-080f3726bbc4" name="Changes" comment="working with pandas/.csv and list comprehension.">
+      <change afterPath="$PROJECT_DIR$/18_turtle_GUI/draw_shapes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/18_turtle_GUI/random_walk.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/17_quiz_game/quiz_brain.py" beforeDir="false" afterPath="$PROJECT_DIR$/17_quiz_game/quiz_brain.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +104,7 @@
       <recent name="$PROJECT_DIR$/bandname_gen" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main (1)">
+  <component name="RunManager" selected="Python.random_walk">
     <configuration name="csv_data_list" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="100_days_python_bootcamp" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -137,7 +126,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="list_comp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="draw_shapes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="100_days_python_bootcamp" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -145,14 +134,14 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/26_list_comp_NATO" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/18_turtle_GUI" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/26_list_comp_NATO/list_comp.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/18_turtle_GUI/draw_shapes.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
@@ -200,18 +189,41 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="random_walk" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="100_days_python_bootcamp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/18_turtle_GUI" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/18_turtle_GUI/random_walk.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
+      <item itemvalue="Python.draw_shapes" />
+      <item itemvalue="Python.random_walk" />
       <item itemvalue="Python.main (1)" />
       <item itemvalue="Python.csv_data_list" />
-      <item itemvalue="Python.list_comp" />
       <item itemvalue="Python.main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.random_walk" />
+        <item itemvalue="Python.draw_shapes" />
         <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.csv_data_list" />
-        <item itemvalue="Python.list_comp" />
       </list>
     </recent_temporary>
   </component>
@@ -327,7 +339,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714177883174</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="working with pandas/.csv and list comprehension.">
+      <option name="closed" value="true" />
+      <created>1714929941377</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1714929941377</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -356,7 +376,8 @@
     <MESSAGE value="coffee machine kicked my ass." />
     <MESSAGE value="figuring out how to use PrettyTable." />
     <MESSAGE value="adding OOP chapter: quiz game." />
-    <option name="LAST_COMMIT_MESSAGE" value="adding OOP chapter: quiz game." />
+    <MESSAGE value="working with pandas/.csv and list comprehension." />
+    <option name="LAST_COMMIT_MESSAGE" value="working with pandas/.csv and list comprehension." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
